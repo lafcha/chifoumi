@@ -13,19 +13,25 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <script src="game.js"></script>
     <script src="script.js"></script>
   </head>
   <body>
     <h1>Chifoumi</h1>
     <h2>Choisissez une image</h2>
-    <div class="wrap">
-      <img class="img" id="leave" src="img/leave.jpg" alt="feuille" />
-      <img class="img" id="stone" src="img/stone.jpg" alt="pierre" />
-      <img class="img" id="scissors" src="img/scissors.jpg" alt="ciseaux" />
-    </div>
-    <div class="btn-wrap">
+
+    <div id="game-not-played">
+      <div id="wrap">
+        <img class="img" id="paper" src="img/paper.jpg" alt="feuille" />
+        <img class="img" id="stone" src="img/stone.jpg" alt="pierre" />
+        <img class="img" id="scissors" src="img/scissors.jpg" alt="ciseaux" />
+      </div>
+      <div class="btn-wrap" id="btn-wrap">
         <button id="btn" type="submit">Jouer</button>
+      </div>
     </div>
-    
+    <div class="btn-wrap" id="replay-wrap">
+      <button id="replay-btn">Rejouer</button>
+    </div>
   </body>
 </html>
