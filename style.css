@@ -3,6 +3,7 @@ h1 {
   font-size: 4rem;
   text-align: center;
   margin-bottom: 0;
+  margin-top: 5rem;
 }
 
 h2 {
@@ -13,7 +14,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .img {
@@ -67,3 +68,7 @@ button:active {
   transform: scale(0.99);
 }
 /* Button styles end */
+
+.active-img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
